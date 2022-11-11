@@ -18,7 +18,7 @@ metadata:
 spec:
   type: hybrid
   profile: default
-  anthosBareMetalVersion: 1.10.0
+  anthosBareMetalVersion: 1.13.1
   gkeConnect:
     projectID: ${projectId}
   controlPlane:

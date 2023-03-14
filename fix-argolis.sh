@@ -40,6 +40,9 @@ listPolicy:
 EOF
     gcloud resource-manager org-policies set-policy new_policy.yaml --project=$PROJECT_ID
 done
+
+gcloud resource-manager org-policies disable-enforce compute.disableNestedVirtualization --project=$PROJECT_ID
+
 # End Inner Loop
 
 

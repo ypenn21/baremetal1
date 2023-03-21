@@ -42,6 +42,7 @@ EOF
 done
 
 gcloud resource-manager org-policies disable-enforce compute.disableNestedVirtualization --project=$PROJECT_ID
+gcloud resource-manager org-policies disable-enforce compute.disableInternetNetworkEndpointGroup --project=$PROJECT_ID
 
 # End Inner Loop
 

@@ -1,0 +1,3 @@
+constraint: constraints/sql.restrictAuthorizedNetworks 
+booleanPolicy:
+  enforced: false  # Enforce the restriction
